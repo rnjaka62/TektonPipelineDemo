@@ -9,3 +9,10 @@ spec:
       command:
         - /bin/bash
       args: ['-c', 'echo Hello World']
+      
+      
+#Run below scripts
+#kubectl apply -f ./demo/01-hello.yaml
+#tkn task start --showlog hello
+      
+    
