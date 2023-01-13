@@ -44,3 +44,7 @@ spec:
   - name: url
   value: https://github.com/joellord/handson-tekton.git
 
+#Run below scripts
+#kubectl apply -f ./demo/07-pipelineresource.yaml
+#tkn pipeline start count --showlog
+#tkn pipeline start count --showlog --resource git-repo=git-repo
