@@ -14,3 +14,8 @@ spec:
       command:
         - /bin/bash
       args: ['-c', 'echo Hello $(params.person)']
+      
+#Run below below scripts
+#kubectl apply -f ./demo/02-param.yaml
+#tkn task start --showlog hello
+#tkn task start --showlog -p person=Joel hello
