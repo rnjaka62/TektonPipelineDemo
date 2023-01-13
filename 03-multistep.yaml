@@ -25,3 +25,7 @@ spec:
         let file = "/tekton/home/hello.txt";
         let fileContent = fs.readFileSync(file).toString();
         console.log(fileContent);
+        
+#Run below scripts
+#kubectl apply -f ./demo/03-multistep.yaml
+#tkn task start --showlog hello
