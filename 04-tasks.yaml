@@ -18,3 +18,8 @@ spec:
       command:
         - /bin/bash
       args: ['-c', 'sleep $(params.pause-duration) && echo $(params.say-what)']
+      
+#Below scripts will run demo 04 & 05.yaml files
+#kubectl apply -f ./demo/04-tasks.yaml
+#kubectl apply -f ./demo/05-pipeline.yaml
+#tkn pipeline start say-things --showlog
