@@ -81,3 +81,9 @@ spec:
       emptyDir: {}
     - name: gensource
       emptyDir: {}
+      
+#Run below scripts      
+#kubectl apply -f ./demo/08-realworld.yaml
+#tkn pipeline start app-deploy --showlog
+#docker run -d -p 3000:3000 --rm --name handson <user>/<image-name>
+#curl localhost:3000/add/2/5
